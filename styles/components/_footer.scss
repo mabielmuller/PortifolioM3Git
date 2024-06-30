@@ -1,9 +1,0 @@
-@use '../abstract/variaveis';
-
-footer{
-    background-color: variaveis.$cor-tema;
-    padding: 1rem;
-    text-align: center;
-    color: #DDDDDD;
-    font-family: variaveis.$fonte-principal;
-}
