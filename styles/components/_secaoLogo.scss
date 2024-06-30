@@ -1,0 +1,48 @@
+@use '../abstract/variaveis';
+
+.container-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: variaveis.$fonte-principal;
+    margin: auto;
+    gap: 2rem;
+    box-shadow: 2px 2px 5px rgb(241, 241, 241);
+
+    .titulo-logo{ 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+
+        .titulo{
+            font-size: 5rem;
+            font-weight: 300;
+            margin: 0;
+        }
+
+        p{
+            font-weight: 400;
+        }
+
+        .chamada{
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 30%; 
+            background-color: transparent;
+            font-size: 16px;        
+        }
+
+        .chamada:hover{
+            background-color: rgb(241, 241, 241);
+             cursor: pointer;
+        }
+    }
+
+    img{
+        width: 65rem;
+    }
+}

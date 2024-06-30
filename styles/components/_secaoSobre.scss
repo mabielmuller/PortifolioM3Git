@@ -1,0 +1,31 @@
+@use '../abstract/variaveis';
+
+.container-sobre{
+    display: flex;
+    flex-direction: row;
+    font-family: variaveis.$fonte-principal;
+    justify-content: space-between;
+    padding: 5rem;
+    margin-top: 3rem;
+    box-shadow: 2px 2px 5px rgb(241, 241, 241);
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        
+        .titulo-sobre{
+            font-weight: 400;
+            font-size: 3rem;
+        }
+
+        .paragrafo-sobre{
+            width: 50%;
+            font-size: 18px;
+        }
+    }
+
+}

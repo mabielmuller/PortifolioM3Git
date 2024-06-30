@@ -1,0 +1,40 @@
+@use '../abstract/variaveis';
+
+.cabecalho{
+    background-color: variaveis.$cor-tema;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: variaveis.$fonte-principal;
+
+    .logo{
+        color: variaveis.$cor-fonte;
+        margin-left: 5rem;
+        font-size: 32px;
+    }
+
+    .navegação{
+        display: flex;
+        justify-content: center;
+
+        .container-lista{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            margin-right: 5rem;
+            list-style: none;
+            .link-lista {
+                a{
+                    color: variaveis.$cor-fonte;
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+
+                a:hover{
+                    color: #dddddd7a;
+                }
+            }
+        }
+    }
+}

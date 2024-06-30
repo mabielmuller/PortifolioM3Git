@@ -1,0 +1,9 @@
+@use './abstract/_root';
+@use './abstract/_variaveis';
+@use 'components/_header.scss';
+@use 'components/secaoLogo';
+@use 'components/secaoSobre';
+@use 'components/servicos';
+@use 'components/parceiros';
+@use 'components/contato';
+@use 'components/footer';
